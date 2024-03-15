@@ -24,8 +24,6 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "telugu", name: "Telugu" },
   { identifier: "tamil", name: "Tamil" },
   { identifier: "kanada", name: "Kanada" },
- 
 ];
- //export const OPENAI_KEY="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";
 export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
-//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
+
