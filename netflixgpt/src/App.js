@@ -1,11 +1,19 @@
 
-import './App.css';
 
+import { Provider } from 'react-redux';
+import Body from './Components/Body';
+import appstore from './utils/appstore';
+;
 function App() {
   return (
-    <div className="App">
-      <h1>lets build netflix</h1>
-    </div>
+    <Provider store={appstore}>
+      <div className="App">
+      
+      <Body/>
+      
+     </div>
+    </Provider>
+    
   );
 }
 
